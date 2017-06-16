@@ -265,7 +265,7 @@ namespace RetoN
             TorneoItem registro = new TorneoItem();
             registro.DeviceId = Android.Provider.Settings.Secure.GetString(ContentResolver, Android.Provider.Settings.Secure.AndroidId);
             registro.Email = "victor_m_rico_c@hotmail.com";
-            registro.Reto = "Reto 8 + 184f5";
+            registro.Reto = "RetoN + 28a90 + https://github.com/Victor-mrc/RetoN";
             await ItemManager.DefaultManager.SaveTaskAsynx(registro);
         }
     }
